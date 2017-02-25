@@ -3,9 +3,8 @@
     background: darkslateblue;
     padding-left: 20px;
     border-radius: 25px;
-    padding: 20px; 
-    
-}
+    padding: 40px;
+  }
 
 .intro {
     color: snow;
@@ -31,7 +30,12 @@
 }
 
 .container {
-    display: inline;
+     -webkit-columns: 10px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 10px 2; /* Firefox */
+    columns: 10px 2;
+
+    
+    
 }
 
 .container2 {
