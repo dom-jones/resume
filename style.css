@@ -9,7 +9,9 @@
 
 .intro {
     color: snow;
-    text-align: left;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .contact {
@@ -43,4 +45,9 @@
 .picture {
     padding-left: 80px;
     
+}
+
+.skillset {
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
