@@ -11,11 +11,11 @@
     width: 25%;
     height: 100%;
     background: cadetblue;
-    padding-left: 20px;
-    border-radius: 25px;
-    padding: 20px;
-
-
+  margin: 0;
+  width: 45.5%;
+  border: 2px solid black;
+  height: 100%;
+  vertical-align: top;
 }
 
 .intro {
@@ -36,15 +36,16 @@
     height: 100%;
     /*float:right*/; /* add this */
     background: burlywood;
+    height: 100%;
+    /*float:right*/; /* add this */
     border-radius: 25px;
     padding: 20px;
     text-align: left;
-
-
 }
 
 .container {
     height: 1050px;
+    height:750px;
     width:100%;
 
 }
@@ -59,7 +60,6 @@ div.container{
     color: snow;
     text-align: left;
 }
-
 
 .skillset {
     font-style: oblique;
