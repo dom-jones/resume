@@ -1,0 +1,32 @@
+#leftSection {
+    width: 28%;
+    background: darkslateblue;
+    padding-left: 20px;
+}
+
+.intro {
+    color: snow;
+    text-align: left;
+}
+
+.contact {
+    color: snow;
+    text-align: left;
+}
+
+#rightsection {
+    width: 70%;
+    height: 100%;
+    float:right; /* add this */
+    border: 1px solid snow;
+    color: purple;
+}
+
+.container {
+    display: inline-table
+}
+
+.skillset {
+    color: snow;
+}
+
