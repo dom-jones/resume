@@ -1,10 +1,19 @@
+#leftSection, #rightsection{
+  display: inline-block;
+  margin: 0;
+  width: 45.5%;
+  border: 2px solid black;
+  height: 100%;
+  vertical-align: top;
+}
 #leftSection {
-    width: 28%;
+    /*width: 28%;*/
     background: darkslateblue;
     padding-left: 20px;
     border-radius: 25px;
-    padding: 20px; 
-    
+    padding: 20px;
+
+
 }
 
 .intro {
@@ -20,31 +29,37 @@
 }
 
 #rightsection {
-    width: 66%;
+    /*width: 66%;*/
     height: 100%;
-    float:right; /* add this */
+    /*float:right*/; /* add this */
     background: blanchedalmond;
     border-radius: 25px;
     padding: 20px;
-    
+    text-align: left;
+
 
 }
 
 .container {
-    display: inline;
+    height:750px;
+    width:100%;
+
 }
 
-.container2 {
-    display: inline;;
+div.container{
+  text-align: center;
 }
+
+
 
 .skillset {
     color: snow;
+    text-align: left;
 }
 
 .picture {
-    padding-left: 80px;
-    
+    /*padding-left: 80px;*/
+
 }
 
 .skillset {
