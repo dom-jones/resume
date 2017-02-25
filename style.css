@@ -6,10 +6,11 @@
   height: 100%;
   vertical-align: top;
   
+  
 }
 #leftSection {
     width: 25%;
-    height: 100%;
+    height: 1000px;
     background: cadetblue;
     vertical-align: top;
     border-radius: 25px;
@@ -21,17 +22,23 @@
     font-size: large;
     text-align: center;
     font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: cookie;
+
 }
 
 .contact {
-    color: snow;
+     color: snow;
+    font-size: medium;
     text-align: left;
+    font-style: italic;
+    font-family: cookie;
+    border-bottom: ridge snow;
+    border-top: ridge snow;
 }
 
 #rightsection {
-    width: 65%;
-    height: 100%;
+    width: 45%;
+    height: 1000px;
     /*float:right*/; /* add this */
     background: burlywood;
     /*float:right*/; /* add this */
@@ -41,8 +48,9 @@
 }
 
 .container {
-    height: 1050px;
+    background-color: grey;
     width:100%;
+    
 
 }
 
@@ -63,5 +71,29 @@ div.container{
 }
 
 .prefix {
-    color: black
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "cookie";
+    src: url ("cookie.otf");
+}
+
+.education {
+     color: black;
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    font-family: cookie;
+    
+}
+
+.credentials {
+     color: black;
+    font-size: large;
+    text-align: left;
+    font-style: italic;
+    font-family: cookie;
+    
 }
