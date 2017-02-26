@@ -63,12 +63,10 @@ div.container{
 .skillset {
     color: snow;
     text-align: left;
+    font-style: oblique;
+    font-family: cookie;
 }
 
-.skillset {
-    font-style: oblique;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
 
 .prefix {
     color: rebeccapurple;
@@ -87,6 +85,10 @@ div.container{
     font-style: italic;
     font-family: cookie;
     
+}
+
+.prefix li a {
+    text-decoration: none;
 }
 
 .credentials {
