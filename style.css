@@ -1,18 +1,21 @@
-#leftSection, #rightsection{
+html, body {
+    height: 100%;
+}
+#leftSection, #rightsection {
   display: inline-block;
   margin: 20;
   width: 45.5%;
   /*border: 2px solid black;*/
-  height: 100%;
+  height: 90%;
   vertical-align: top;
+  cursor: pointer;
   
   
 }
 #leftSection {
     width: 25%;
-    height: 1000px;
     background: cadetblue;
-    vertical-align: top;
+    /*vertical-align: top;*/
     border-radius: 25px;
     padding: 20px;
 }
@@ -22,7 +25,7 @@
     font-size: large;
     text-align: center;
     font-style: italic;
-    font-family: cookie;
+   font-family: 'Ranga', cursive;
 
 }
 
@@ -31,14 +34,13 @@
     font-size: medium;
     text-align: left;
     font-style: italic;
-    font-family: cookie;
+    font-family: 'Ranga', cursive;
     border-bottom: ridge snow;
     border-top: ridge snow;
 }
 
 #rightsection {
     width: 45%;
-    height: 1000px;
     /*float:right*/; /* add this */
     background: burlywood;
     /*float:right*/; /* add this */
@@ -50,6 +52,7 @@
 .container {
     background-color: grey;
     width:100%;
+    height: 200%;
     
 
 }
@@ -61,10 +64,10 @@ div.container{
 
 
 .skillset {
-    color: snow;
+    color: burlywood;
     text-align: left;
     font-style: oblique;
-    font-family: cookie;
+    font-family: 'myFirstFont';
 }
 
 
@@ -73,17 +76,23 @@ div.container{
     font-weight: bold;
 }
 
-@font-face {
-    font-family: "cookie";
-    src: url ("cookie.otf");
-}
+
 
 .education {
      color: black;
     font-size: large;
     text-align: center;
     font-style: italic;
-    font-family: cookie;
+    font-family: 'myFirstFont';
+    
+}
+
+.experience {
+     color: black;
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    font-family: 'myFirstFont';
     
 }
 
@@ -91,15 +100,52 @@ div.container{
     text-decoration: none;
 }
 
-.credentials {
+.credentials1 {
      color: black;
     font-size: large;
-    text-align: left;
+    text-align: center;
     font-style: italic;
     font-family: cookie;
-    
 }
 
 #tagline {
     font-weight: bold;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+button, button1 {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 5px 52px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ranga', cursive;
+    display: inline-block;
+    font-size: 34px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: cadetblue;
+    }
+
+    #rightsection {
+        height: 300%;
+        width: 100%;
+    }
+
+    #leftsection {
+        height: 300%;
+        width: 100%;
+    }
+
+
+
+}
+
